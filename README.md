@@ -1,2 +1,7 @@
 # 3tri-projeto
-Guilherme, Henricow, Nicolas, Tec
+[Descrição do projeto]
+## Autores
+- Guilherme
+- Henrico 
+- Vitor
+- Nicolas
