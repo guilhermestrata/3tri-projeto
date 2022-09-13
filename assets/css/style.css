@@ -1,0 +1,13 @@
+body{
+    background-color: #3D3C3C;
+}
+.list{
+position: absolute;
+left: 15.62%;
+right: 15.62%;
+top: 75%;
+bottom: 25%;
+
+background: #000000;
+border: 2px solid #000000;
+}
