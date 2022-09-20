@@ -12,3 +12,22 @@ bottom: 25%;
 background: #000000;
 border: 2px solid #000000;
 }
+/* Rectangle 17 */
+.rec{
+position: absolute;
+width: 257px;
+height: 23px;
+left: 59px;
+top: 61px;
+}
+
+
+/* MagnifyingGlass */
+.icon{
+position: absolute;
+width: 20px;
+height: 19px;
+left: 292px;
+top: 63px;
+}
+
