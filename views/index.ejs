@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beta Sports</title>
     <meta name="description" content="A Beta Sports é a loja de material esportivo mais desejada do Brasil">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/logo.svg">
@@ -18,15 +20,76 @@
             <input type="text" class="icon-busca">
             <img src="" alt="">
         </div>
-        <img class="w-1" src="/img/Carrinho.svg" alt="Carrinho">
+        <img class="w-10" src="/img/Carrinho.svg" alt="Carrinho">
     </nav>
     <main>
-        <h1 class="text-blue-800 text-4xl font-bold">OFERTAS DO DIA</h1>
+        <h1 class="text-blue-800 text-4xl font-bold text-center">OFERTAS DO DIA</h1>
         <section>
-            <h2>DESFRUTE JA</h2>
-
-            <h3 class="text-blue-800">Escolha por Esporte</h3>
+            <h2 class="text-center">DESFRUTE JA</h2>
+            <div id="carouselExampleDark" class="carousel slide w-80 ml-7 mr-7" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/Camisa_Real.png" class="d-block w-80 rounded-lg" alt="Camisa Real">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/Camisa_SP.png" class="d-block w-80 rounded-lg" alt="Camisa Sao Paulo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Camisa_Max.png" class="d-block w-80 rounded-lg" alt="Camisa Max">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <h3 class="text-blue-800 mt-10 mb-1 fs-4 fw-bold text-center">Escolha por Esporte</h3>
+            <div id="Carousel" class="carousel slide w-80 ml-7 mr-7" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/Acad.png" class="d-block w-80 rounded-lg" alt="Acad">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/Box.png" class="d-block w-80 rounded-lg" alt="Box">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Volei.png" class="d-block w-80 rounded-lg" alt="Volei">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="flex flex-row justify-end static">
+                <div class="bg-blue-800 rounded-full w-6 h-6 static flex flex-col justify-center m-1">
+                    <button onclick="topFunction()" class="ml-1 cursor-pointer">
+                        <img src="img/seta.svg" alt="seta">
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="js/top.js"></script>
 </body>
 </html>
