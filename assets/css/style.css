@@ -1,34 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+:root{
+    --main-color: #002C8A
+}
 body{
+    margin: 0px;
+    gap: 0px;
     font-family: 'Mina', sans-serif;
-    background-color: #7e7e7e;
+    /* background-color: #7e7e7e; */
 }
-.list{
-position: absolute;
-left: 15.62%;
-right: 15.62%;
-top: 75%;
-bottom: 25%;
-
-background: #000000;
-border: 2px solid #000000;
-}
-/* Rectangle 17 */
-.rec{
-position: absolute;
-width: 257px;
-height: 23px;
-left: 59px;
-top: 61px;
+/* div{
+    border-style: solid;
+    border-width: 1px;
+} */
+nav{
+    gap: 0px;
+    margin: 0px;
+    width: auto;
+    height: 80px;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
-
-/* MagnifyingGlass */
-.icon{
-position: absolute;
-width: 20px;
-height: 19px;
-left: 292px;
-top: 63px;
+/* .menu{
+    align-self: center;
+} */
+.logo{
+    height: 50px;
+    width: 50px;
 }
-
+/* .logo-div{
+    align-self: flex-start;
+} */
+h1{
+    color: var(--main-color);
+    margin-left: 19px;
+}
+.produto{
+    background-color: #BFBFBF;
+    height: 122px;
+    width: 318px;
+    border-radius: 7px;
+    align-self: center;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-produto{
+    height: 96px;
+    width: 86px;
+    border-radius: 3px;
+    margin: 13px;
+}
+.up{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.carrinho{
+    margin-right: 5px;
+}
+.menu{
+    margin-top: 5px;
+}
