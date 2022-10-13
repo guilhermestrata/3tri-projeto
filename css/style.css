@@ -371,4 +371,79 @@ section{
 #cpf{
     margin-left: 15px;
 }
+.carrinho-nav{
+    justify-content: center;
+}
+.logo-carrinho{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.x{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.up p{
+    color: #fff;
+    font-weight: 300;
+}
+.carrinho-item{
+    background-color: #C2BEBE;
+    display: flex;
+    flex-direction: row;
+    width: 325px;
+    height: 162px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-top: 10px;   
+}
+.carrinho-txt{
+    align-self: center;
+}
+.carrinho-txt p{
+    margin-bottom: 0;
+
+}
+.carrinho-txt span{
+    font-weight: 900;
+    font-size: 20px;
+}
+.carrinho-img{
+    width: 120px;
+    height: 119px;
+    align-self: center;
+    margin-left: 10px;
+}
+.lixo{
+    align-self: flex-end;
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+}
+.sm-txt{
+    font-size: 12px;
+}
+.btn-red{
+    background: #C70031;
+    color: #fff;
+    height: 40px;
+    width: 325px;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn-red:active{
+    background-color: #70001c;
+}
+.bot-carrinho{
+    margin-top: 30px;
+    border-top: 1px solid #000;
+    width: 325px;
+}
+.bot-carrinho p{
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 20px;
+}
 }
