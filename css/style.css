@@ -32,6 +32,9 @@ nav{
     color: var(--main-color);
     font-style: italic;
     margin-left: 19px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .up{
     width: 100%;
