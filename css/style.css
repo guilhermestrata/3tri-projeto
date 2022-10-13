@@ -28,7 +28,7 @@ nav{
 *:focus {
     outline: none;
 }
-.lista h1{
+.lista{
     color: var(--main-color);
     font-style: italic;
     margin-left: 19px;
