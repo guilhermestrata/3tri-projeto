@@ -1,4 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/guilhermestrata/3tri-projeto)
+![GitHub](http://jigsaw.w3.org/css-validator/images/vcss)
 # 3tri-projeto 
 [Descrição do projeto]
 ## Autores
