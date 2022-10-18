@@ -616,5 +616,72 @@ footer{
 }
 .c2{
     margin-left: 5px;
+}
+.btn-pagamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-cupom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.text-cupom button{
+    background: var(--second-color);
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    
+
+}
+.text-cupom input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: end;
+    width: 192px;
+    height: 22px;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.btn-pix{
+    background: #c9c9c9;
+    color: rgb(0, 0, 0);
+    height: 90px;
+    width: 233px;
+    align-self: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.57);
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+.btn-boleto{
+    background: #c9c9c9;
+    color: rgb(0, 0, 0);
+    height: 90px;
+    width: 233px;
+    align-self: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.57);
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+
+.btn-cartao{
+    background: #c9c9c9;
+    color: rgb(0, 0, 0);
+    height: 90px;
+    width: 233px;
+    align-self: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.57);
+    border-radius: 7px;
+    margin-bottom: 40px;
 } 
 }
