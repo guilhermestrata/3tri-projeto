@@ -13,13 +13,22 @@
     <link rel="icon" href="img/logo.svg">
 </head>
 <body class="index">
-  <nav class="div-menu">
+  <nav class="div-menu" id="nav">
     <div class="up">
         <div class="menu">
-            <img src="img/Menu.svg" alt="Menu">
+            <button id="btn-mobile"><img src="img/Menu.svg" alt="Menu"></button>
+            <ul id="menu">
+              <li><button id="btn-mobile2"><img src="img/x.svg" alt="X"></button></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">Esportes</a></li>
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Minha Conta</a></li>
+            </ul>
         </div>
         <div class="logo-div">
             <a href="#"><img class="logo" src="img/Logo_Menu.png" alt="Logo"></a>
+
         </div>
         <div class="carrinho">
             <a href="carrinho.html"><img src="img/Carrinho.svg" alt="Carrinho"></a>
@@ -41,13 +50,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a href="lista.html"><img src="/img/Camisa_Basket.png" class="d-block w-100" alt="Camisa Basquet"></a>
+          <a href="lista.html"><img src="img/Camisa_Basket.png" class="d-block w-100" alt="Camisa Basquet"></a>
         </div>
         <div class="carousel-item">
-          <a href="lista.html"><img src="/img/Camisa_SP.png" class="d-block w-100" alt="Camisa Sao Paulo"></a>
+          <a href="lista.html"><img src="img/Camisa_SP.png" class="d-block w-100" alt="Camisa Sao Paulo"></a>
         </div>
         <div class="carousel-item">
-          <a href="lista.html"><img src="/img/Camisa_Beta.png" class="d-block w-100" alt="Camisa Beta"></a>
+          <a href="lista.html"><img src="img/Camisa_Beta.png" class="d-block w-100" alt="Camisa Beta"></a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -68,11 +77,11 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a href="lista.html"><img src="/img/Box.png" class="d-block w-100" alt="Boxe"></a></div>
+          <a href="lista.html"><img src="img/Box.png" class="d-block w-100" alt="Boxe"></a></div>
         <div class="carousel-item">
-          <a href="lista.html"><img src="/img/Acad.png" class="d-block w-100" alt="Academia"></a></div>
+          <a href="lista.html"><img src="img/Acad.png" class="d-block w-100" alt="Academia"></a></div>
         <div class="carousel-item">
-          <a href="lista.html"><img src="/img/Basq.png" class="d-block w-100" alt="Basket"></a>
+          <a href="lista.html"><img src="img/Basq.png" class="d-block w-100" alt="Basket"></a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -135,5 +144,6 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="js/top.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

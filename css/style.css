@@ -50,8 +50,44 @@ nav{
     margin-right: 5px;
 }
 .menu{
+    display: flex;
+    flex-direction: column;
+    
     margin-top: 5px;
     margin-bottom: 10px;
+    width: 52px;
+}
+#btn-mobile{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#btn-mobile2{
+    background-color: rgba(0, 0, 0, 0);
+}
+#btn-mobile2 img{
+    height: 20px;
+    width: 32px;
+}
+#nav.act #menu{
+    visibility: visible;
+}
+#menu a, li{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+}
+#menu{
+    visibility: hidden;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    width: 150px;
+    background-color: var(--main-color);
 }
 .search input{
     background: transparent;
@@ -462,7 +498,10 @@ section{
     height: 100px;
     margin-bottom: 10px;
 }
-
+.logo-rodape{
+    height: 100px;
+    margin-bottom: 10px;
+}
 #myFooter {
     background-color: #3c3d41;
     color: white;
