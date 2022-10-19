@@ -11,23 +11,32 @@
     <title>Registro</title>
 </head>
 <body class="index">
-    <nav class="div-menu">
+    <nav class="div-menu" id="nav">
         <div class="up">
             <div class="menu">
-                <img src="img/Menu.svg" alt="Menu">
+                <button id="btn-mobile"><img src="img/Menu.svg" alt="Menu"></button>
+                <ul id="menu">
+                  <li><button id="btn-mobile2"><img src="img/x.svg" alt="X"></button></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="lista.html">Esportes</a></li>
+                  <li><a href="">Ajuda</a></li>
+                  <li><a href="">Sobre</a></li>
+                  <li><a href="user.html">Minha Conta</a></li>
+                </ul>
             </div>
             <div class="logo-div">
-                <img class="logo" src="img/Logo_Menu.png" alt="Logo">
+                <a href="#"><img class="logo" src="img/Logo_Menu.png" alt="Logo"></a>
+    
             </div>
             <div class="carrinho">
-                <img src="img/Carrinho.svg" alt="Carrinho">
+                <a href="carrinho.html"><img src="img/Carrinho.svg" alt="Carrinho"></a>
             </div>
         </div>
         <div class="search">
             <input type="text" name="search" id="search" placeholder="O que você procura?">
             <img src="img/Lupa.svg" alt="Lupa">
         </div>
-    </nav>
+      </nav>
     <img class="img-top" src="img/logo.svg" alt="Logo">
     <h1 class="text-center">Registro</h1>
     <div class="registro">
@@ -85,5 +94,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

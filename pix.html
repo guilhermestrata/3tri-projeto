@@ -11,23 +11,32 @@
         <title>Login</title>
     </head>
 <body>
-    <nav class="div-menu">
+    <nav class="div-menu" id="nav">
         <div class="up">
             <div class="menu">
-                <img src="img/Menu.svg" alt="Menu">
+                <button id="btn-mobile"><img src="img/Menu.svg" alt="Menu"></button>
+                <ul id="menu">
+                  <li><button id="btn-mobile2"><img src="img/x.svg" alt="X"></button></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="lista.html">Esportes</a></li>
+                  <li><a href="">Ajuda</a></li>
+                  <li><a href="">Sobre</a></li>
+                  <li><a href="user.html">Minha Conta</a></li>
+                </ul>
             </div>
             <div class="logo-div">
-                <img class="logo" src="img/Logo_Menu.png" alt="Logo">
+                <a href="#"><img class="logo" src="img/Logo_Menu.png" alt="Logo"></a>
+    
             </div>
             <div class="carrinho">
-                <img src="img/Carrinho.svg" alt="Carrinho">
+                <a href="carrinho.html"><img src="img/Carrinho.svg" alt="Carrinho"></a>
             </div>
         </div>
         <div class="search">
             <input type="text" name="search" id="search" placeholder="O que você procura?">
             <img src="img/Lupa.svg" alt="Lupa">
         </div>
-    </nav>
+      </nav>
     <br>
         <div class="pix-inicio">
     <h1 style ="font-weight: 900;">PAGUE COM</h1>
@@ -90,5 +99,6 @@
                 <p>© 2022 Copyright - Beta Sports</p>
             </div>
         </footer>
+        <script src="js/menu.js"></script>
 </body>
 </html>
