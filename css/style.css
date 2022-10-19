@@ -719,5 +719,67 @@ footer{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.57);
     border-radius: 7px;
     margin-bottom: 40px;
+}
+.img-boleto{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 40px;
+}
+.cartao-pagamento p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.cartao-pagamento input .numero-cartao{
+    height: 30px;
+    width: 180px;
+}
+
+.cartao-pagamento{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 325px;
+    height: 200px;
+}
+.cartao-pagamento input{
+    border-radius: 5px;
+}
+
+.segundo-cartao input{
+   height: 27px;
+   width: 150px;
+}
+
+.data-validade{
+    margin-right: 27px;
+}
+
+.segundo-cartao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.segunda-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.especificacoes{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pix-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 } 
 }
